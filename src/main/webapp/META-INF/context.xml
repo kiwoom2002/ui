@@ -1,0 +1,10 @@
+<Context>
+  <Resource name="jdbc/busfav"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxTotal="20" maxIdle="5" maxWaitMillis="10000"
+            username="bususer"
+            password="0000"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/busfav?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=Asia/Seoul&amp;allowPublicKeyRetrieval=true&amp;useSSL=false"/>
+</Context>
